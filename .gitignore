@@ -1,0 +1,4 @@
+#ignoring all the latex config files
+*.aux
+*.log
+*.gz

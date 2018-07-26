@@ -1,0 +1,67 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '4pane2Charges.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{504bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{../images/4pane2Charges.pdf}}%
+    \put(0.01270528,0.96145126){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ignore the charge on the right.}}}%
+    \put(0.01272853,0.93502933){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Draw the electric FIELD for the}}}%
+    \put(0.01287967,0.90860731){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{left charge.}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{../images/4pane2Charges.pdf}}%
+    \put(0.520665,0.97729269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ignore the charge on the left.}}}%
+    \put(0.5206883,0.95087076){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Draw the electric FIELD for the}}}%
+    \put(0.52083939,0.92444874){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{right charge.}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{../images/4pane2Charges.pdf}}%
+    \put(0.0088084,0.46368723){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Draw the electric FIELD surrounding}}}%
+    \put(0.0088317,0.4372653){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{both charges.}}}%
+    \put(0.52033314,0.46181403){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Draw a vector on each charge,}}}%
+    \put(0.52035644,0.4353921){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{representing the electric FORCE.}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{../images/4pane2Charges.pdf}}%
+  \end{picture}%
+\endgroup%

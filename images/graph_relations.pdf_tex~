@@ -1,0 +1,61 @@
+%% Creator: Inkscape inkscape 0.48.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'graph_relations.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{192.30458984bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.34469751)%
+    \put(0,0){\includegraphics[width=\unitlength]{graph_relations.pdf}}%
+    \put(-0.00489945,0.15454611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Position}}}%
+    \put(0.34452153,0.15938462){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Velocity}}}%
+    \put(0.69394254,0.15454611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Acceleration}}}%
+    \put(0.18004767,0.30676942){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{slope}}}%
+    \put(0.59725982,0.30676917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{slope}}}%
+    \put(0.62103167,0.00070691){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{area}}}%
+    \put(0.18381945,0.00828207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{area}}}%
+  \end{picture}%
+\endgroup%

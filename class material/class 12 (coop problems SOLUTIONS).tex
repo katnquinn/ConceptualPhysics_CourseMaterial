@@ -1,0 +1,268 @@
+\documentclass[12pt]{exam}
+%\documentclass[12pt]{article}
+\usepackage[letterpaper, margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{color}
+
+\begin{document}
+\footer{}{Page \thepage\ of \numpages}{}
+
+\begin{flushright}
+\makebox[0.5\textwidth]{\large Name:\enspace\hrulefill}
+\vspace{0.2in}
+
+\makebox[0.5\textwidth]{\large Date:\enspace\hrulefill}
+\end{flushright}
+
+\begin{center}
+\includegraphics[width=10cm]{../images/logo.png}
+\end{center}
+
+\begin{center}
+\noindent{\LARGE Conceptual Physics \\ Class 12 Questions \\ April 25th, 2018 \\ SOLUTIONS \\}
+\end{center}
+
+\clearpage
+
+\begin{questions}
+\question Is surface of the Earth an inertial frame of reference? Justify your response.
+
+From \textit{College Physics}, Chapter 28 Question 2
+\begin{TheSolution}
+No, it is not. The surface of the Earth is in a gravitational field.
+\end{TheSolution}
+
+\question GPS satellites orbit at an altitude of about 20,000 km and at a speed of about 4000 m/s relative to the ground. In order to accurately measure position based on the travel time of a signal from a GPS satellite to a GPS receiver, we need to account for the difference between the satellite's clock and the receiver's clock. (Useful info: the radius of the Earth is 6,371 km).
+\begin{parts}
+\part Does special relativity predict that the satellite's clock will run fast or slow compared to a stationary clock on Earth?
+\begin{TheSolution}
+\textbf{Slow.} From the perspective of someone stationary on earth (with the clock) the satellite is moving at a speed of about 4,000m/s. Time will appear \textit{dilated}, or stretched out and so will appear to move slow.
+\end{TheSolution}
+\part Does general relativity predict that the satellite's clock will run fast or slow compared to a clock on the surface of the Earth?
+\begin{TheSolution}
+\textbf{Fast.} The surface of the Earth experiences a stronger gravitational field than a satellite in orbit: Therefore time runs slower on the surface of the Earth, and so time on the satellite will appear to run fast.
+\end{TheSolution}
+\part Which effect do you think causes a greater change in the rate the clock ticks?
+\begin{TheSolution}
+\textbf{General (faster).} The strength due to gravity is much weaker to an object 20,000km away, (it is several times the radius of the Earth). However, moving at 4,000 m/s ($4\times 10^3$m/s) is much less than the speed of light (which is $3\times 10^8$ m/s) and so the effect of general relativity is much greater than special relativity.
+\end{TheSolution}
+\end{parts}
+
+\question
+Consider the following two sets of astronauts, one in a spacecraft that is experiencing uniform acceleration far from any mass and one at rest in a uniform gravitational field where the acceleration $g = -a$.
+
+\begin{center}
+				\includegraphics[width=0.7\textwidth]{../images/coop12_ep.png}
+\end{center}
+	\begin{parts}
+	\part What will the astronauts in spaceship $a$ observe when they drop objects and stand on a scale?
+	\begin{TheSolution}
+	They will notice the ball fall down, and they will see their ``normal" weight (as if they stood on a scale on Earth).
+	\end{TheSolution}
+	\part What will the astronauts in spaceship $b$ observe when they drop objects and stand on a scale?
+	\begin{TheSolution}
+	The same as in (a).
+	\end{TheSolution}
+	\part Is there any way to distinguish between a uniform gravitational field and a uniformly accelerated reference frame?
+	\begin{TheSolution}
+	No, from the perspective of the astronauts in the spacecraft there is no way to distinguish the two situations from inside the spacecraft.
+	\end{TheSolution}
+	\end{parts}
+	
+	
+\question In order to understand the gravitational redshift and time dilation, we can determine the shift of a light pulse in an accelerating reference frame using the Doppler effect from special relativity, and then relate that to a reference frame in a gravitational field.
+
+Consider the following two spacecrafts, one, $S$, at rest in a uniform gravitational field and one, $S'$, accelerating upwards with an acceleration $a = -g$, far from any mass. These spacecrafts contain two identical light sources located at $A$ and $A'$ and detectors at $B$ and $B'$. At time $t=0$, $S'$ begins to accelerate and an atom in the source $A'$ emits a light pulse of its characteristic frequency $f_0$.
+\begin{center}
+				\includegraphics[width=0.7\textwidth]{../images/coop12_redshift.png}
+\end{center}	
+\begin{parts}
+	\part During the time it takes the light pulse to travel from $A'$ to $B'$, what happens to the velocity of $B'$ relative to the location where the pulse was emitted?
+	\begin{TheSolution}
+	The velocity \textit{increased}.
+	\end{TheSolution}
+	\part Does $B'$ detect the light pulse as redshifted or blueshifted?
+	\begin{TheSolution}
+	\textbf{Redshifted.} From the perspective of B', it is moving up \textit{faster}: and so it is like A' and B' are moving \textit{away} from each other, and so light will appear redshifted.
+	\end{TheSolution}
+	\part According to the equivalence principle, there is no difference between $S$ and $S'$ so $B$ must detect the same frequency shift as $B'$. However, the spacecraft in $S$ is not moving so the observed shift cannot be due to the Doppler effect. Given the change in frequency observed at $B$, how does the period change? What does an observer at $B$ conclude about the clock at $A$ (\textit{i.e.}, is it running fast or slow)?
+	\begin{TheSolution}
+	\textbf{Slow.} The frequency decreases, which means that the period must increase: and so time will appear \textit{dilated}, or running slower.
+	\end{TheSolution}
+	\end{parts}
+
+\question Light follows the shortest path between two points, but since spacetime is curved near massive bodies, this path is not a straight line. Another way of thinking of this is that light falls in a gravitational field just like anything else. To understand how light can fall, let's consider how light behaves in an accelerating reference frame. Imagine you are on a space station that is not accelerating and that is far from any large object. You send a beam of light into an elevator that is undergoing uniform acceleration in the $x$ direction at $t_1$.
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{../images/coop12_elevator.png}
+\end{center}
+
+\begin{parts}
+\part Draw the path the beam takes in your frame of reference.
+\begin{TheSolution}
+You see the beam as traveling across the elevator at a constant height $x$.
+\begin{center}
+				\includegraphics[width=0.7\textwidth]{../images/coop12_lightsol1.png}
+\end{center}
+\end{TheSolution}
+\part How would that path look to an observer in the accelerating elevator?
+\begin{TheSolution}
+Someone inside the elevator sees the light beam falling towards the ground.
+\begin{center}
+				\includegraphics[width=0.3\textwidth]{../images/coop12_lightsol2.png}
+\end{center}
+\end{TheSolution}
+
+\part The fact that light curves around massive bodies allows us to see stars that are in the direct line of sight of the Sun and other astronomical objects. Consider the following (not to scale) drawing of light from a distant star approaching the solar system. How will its path be affected by the Sun? Where will the star appear to be, to an observer on Earth? (This was one of the first proofs of general relativity, when during the total solar eclipse of 1919 the apparent positions of several stars were observed to have shifted.)
+\begin{TheSolution}
+Light curves around the Sun. Since we interpret light as following a straight path, the star appears shifted to the side of the Sun.
+\begin{center}
+				\includegraphics[width=0.35\textwidth]{../images/coop12_solstice.png}
+\end{center}
+\end{TheSolution}
+\end{parts}
+	
+	\question Jupiter is the largest planet in our solar system, and has many moons in orbit. If a probe landed on the surface of Europa, one of Jupiter's moons that is much smaller than Earth, and sent a radio signal with frequency of $10^4$~Hz what would the frequency appear to be:
+	\begin{parts}
+		\part To an observer on Earth? (higher, lower, the same?) Why?
+			\begin{TheSolution}
+			\textbf{Higher.} An observer on Earth is in a \textit{stronger gravitational field}, and so the light will appear blueshifted, meaning a higher frequency.
+			\end{TheSolution}
+		\part To an observer on Jupiter? (higher, lower, the same?) Why?
+			\begin{TheSolution}
+			\textbf{Higher.} An observer on Jupiter is in a \textit{stronger gravitational field}, and so the light will appear blueshifted, meaning a higher frequency.
+			\end{TheSolution}
+	\end{parts}	
+	
+	\question The International Space Station (ISS) orbits at an altitude of about 350~km and a speed of about 8000~m/s relative to the ground. Does time run faster on the ISS than on the ground, or more slowly?
+	
+	From \textit{Light and Matter}, Chapter 27 Question 5
+		\begin{TheSolution}
+		Similarly to the question about the GPS, there are 2 effects here: relative speeds causing time to appear slower, and then a difference in gravitational fields causing time to move faster. Again, the radius of the Earth is about 6,000 km, so the height of 350~km is about 1/20th the radius of the Earth. This is much larger than the ratio of the relative speed (8,000 m/s) compared to the speed of light, which has a ratio of about
+		\begin{eqnarray}
+		\frac{8\times 10^3 m/s}{3\times 10^8 m/s} = \frac{8}{3\times 10^5} = \frac{8}{300,000} \nonumber
+		\end{eqnarray}
+		And so the effect due to general relativity is stronger, meaning the time appears \textit{slower.}
+		\end{TheSolution}
+		
+	\question As civilization grows, many people look to Mars as a potential location for a human colony. Mars is a planet with a mass much smaller than the Earth's.
+	\begin{parts}
+		\part Is the strength of the gravitational field on the surface of Mars greater, weaker, or the same as Earth's? Why?
+			\begin{TheSolution}
+			Weaker (Mars is smaller, and so does not create as strong a gravitational field)
+			\end{TheSolution}
+		\part To an observer on Earth, would time appear to pass faster or slower on Mars?
+			\begin{TheSolution}
+			Faster (since mars is in a weaker gravitational field)
+			\end{TheSolution}
+		\part To an observer on Mars, would time appear to pass faster or slower on Earth?
+			\begin{TheSolution}
+			Slower (since Earth is in a stronger gravitational field)
+			\end{TheSolution}
+		\part Assuming all else is the same (access to food, medicine, etc.) would a person on Earth have a longer, shorter, or the same life-span as a person on Mars?
+			\begin{TheSolution}
+			The same (from a person's perspective, their lifetime is the same).
+			\end{TheSolution}
+		\part If the two colonies became isolated and didn't communicate for a very long time, then suddenly reconnected, which would you expect to have a longer history? Why?
+			\begin{TheSolution}
+			Since time on Mars runs faster, you would expect it to have a longer history.
+			\end{TheSolution}
+	\end{parts}
+	
+	
+	\question \textbf{The Twin Paradox} Two identical twins, Alice and Betty, are separated when they are very young. Alice stays on Earth, and the Betty is on a spaceship that accelerates to 99.999\% of the speed of light to visit a distant star, then comes back. For the purpose of the following questions, Earth's gravitational field is so small it is negligible.
+		\begin{parts}
+			\part While the ship is traveling at 99.999\% of the speed of light, does Alice perceive Betty's time to be dilated? Why or why not?
+				\begin{TheSolution}
+				Yes, since they are moving with respect to each other.
+				\end{TheSolution}
+			\part While the ship is traveling at 99.999\% of the speed of light, does Betty perceive Alice's time to be dilated? Why or why not?
+				\begin{TheSolution}
+				Yes, since they are moving with respect to each other.
+				\end{TheSolution}
+			\part When Betty comes back to Earth, which twin, if any, will appear to be older?
+				\begin{TheSolution}
+				Alice, since in the process of accelerating to such a high velocity and decelerating back to Earth, Betty will in effect experience a ``strong gravitational field" (since the two are equivalent). The effect of general relativity in this situation will cause Betty's time to move much slower than Alice's, and so when they reunite Alice will be older. The time difference when they reunite is purely due to the effects of general relativity.
+				\end{TheSolution}
+		\end{parts}
+		
+	\question From Betty's perspective, she ``time traveled" into Earth's future. Is it possible for her to travel back? If so, how could she do this? If not, why not?
+		\begin{TheSolution}
+		No, it is not possible. It is only possible to slow/speed the passage of time through relativistic effects, but not to cause it to run in reverse.
+		\end{TheSolution}
+
+	\question From the observations about the expansion of the universe, we notice that, the further objects are from us, the faster they appear to be moving. A useful analogy is an ant walking on an inflating balloon, who sees its ant friends on different parts moving further and further away. The arrows indicate their relative velocities, with longer arrows indicating they are moving apart faster.
+	\begin{center}
+	\input{../images/antsBalloon.pdf_tex}
+	\end{center}
+	\begin{parts}
+		\part As the balloon expands more, the ants appear to be moving faster and faster apart, but they try to stay in contact by little ant walkie-talkies (which send radio signals to each other). After some time, they appear to be moving away from each other at the speed of light. What happens to their communication then?
+			\begin{TheSolution}
+			Their communication will cease, sine space will be expanding faster than the speed of light, light cannot travel between the two.
+			\end{TheSolution}
+		\part The distance between two points that light cannot travel due to the expansion of the universe is called the \textit{Hubble Horizon}. As the rate of expansion increases, what happens to the length of this Hubble Horizon?
+			\begin{TheSolution}
+			As the rate of expansion increases, the ``cutoff" will happen sooner, meaning this distance will get \textit{shorter.}
+			\end{TheSolution}
+		\part If the rate of expansion were to slow, what would happen to the Hubble Horizon?
+			\begin{TheSolution}
+			If the expansion slowed, the ``cutoff" would happen later, meaning this distance will get \textit{longer.}
+			\end{TheSolution}
+		\part If the Hubble Horizon were to shrink to smaller than an atom, what would happen?
+			\begin{TheSolution}
+			The electric force mediating the electron/proton interaction that keeps atoms together is mediated by light: If the Hubble distance shrinks to less than an atom, then the electrons and protons in atoms will no longer be able to ``communicate" or feel the electric force. Atoms would therefore fly apart.
+			\end{TheSolution}
+		\part If the Hubble Horizon were to shrink to smaller than an atomic nucleus, what would happen?	
+			\begin{TheSolution}
+			Nuclei would fly apart.
+			\end{TheSolution}
+	\end{parts}
+	
+	\question Imagine a universe which was not expanding, that existed forever and had an infinite size. In such a universe, what would the night sky look like?
+		\begin{TheSolution}
+		We would get light from all direction, extending to infinity: The night sky would therefore be bright.
+		\end{TheSolution}
+	\question Where did the Big Bang happen?
+		\begin{TheSolution}
+		Everywhere.
+		\end{TheSolution}
+
+\question Different kinds of stars emit different spectra of light. A distant star within our galaxy emits light with a wavelength that is predominantly 700~nm. It is possible for different observers to measure a different wavelength for this light.
+	\begin{center}
+	\input{../images/earthProbeStar.pdf_tex}
+	\end{center}
+	\begin{parts}
+		\part What factors must be considered, which can impact the observed wavelength of light?
+		\begin{TheSolution}
+		The relative velocities, and the strength of the gravitational field at each location.
+		\end{TheSolution}
+		\part To an observer on the Voyager space probe, which has exited the solar system and is millions of miles away from any object, what will the wavelength be (longer, shorter, the same, can't say)? Why?
+		\begin{TheSolution}
+		\textbf{Can't say.} If it is millions of miles away from any object, then we can assume the gravitational field is very weak at its location. This would cause the light to be \textit{redshifted}, since light would be moving from a large field (at the star) to a weak field (at the probe). However, we need to know what the relative velocities are in order to determine the effect from doppler shifting (if they are moving together or away from each other) to say if there is a red/blue shift from that: and so we cannot say.
+		\end{TheSolution}
+		\part To an observer on Earth, what will the wavelength be (longer, shorter, the same, can't say)? Why?
+		\begin{TheSolution}
+		\textbf{Can't say.} Again, since we don't know what the relative velocities are we can't say if light is red or blue shifted.
+		\end{TheSolution}
+	\end{parts}
+	
+	\question Clock A sits on a desk. Clock B is tossed up in the air from the same height as the desk and then comes back down. Compare the elapsed times.
+	
+	From \textit{Light and Matter}, Chapter 27 Question 7
+	\begin{TheSolution}
+	Clock A experience a constant gravitational field, whereas Clock B experiences a decreasing field which then increases again back to the field A feels: Since on average Clock B experiences a weaker field, time elapses faster for it.
+	\end{TheSolution}
+	
+	\question You are on a spaceship, orbiting a distant planet. There is a malfunction, with the ship, which begins to experience engine problems, and you are knocked out. When you wake up, you are locked in a room on your ship, which is continuing to malfunction and you cannot get out. However, you can feel a force of gravity and are able to stand up and move around. In this room, you have at your disposal all the latest scientific equipment and can perform any experiment (dropping balls, emitting light and detecting Doppler shifts, etc.) How can you distinguish between: (1) having crashed on the planet, and (2) the engines are accelerating the ship?
+	\begin{TheSolution}
+	You cannot tell without looking outside.
+	\end{TheSolution}
+
+\end{questions}
+
+
+\end{document}

@@ -1,0 +1,159 @@
+\documentclass[addpoints,12pt]{exam}
+%\documentclass[12pt]{article}
+\usepackage[letterpaper, margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{color}
+
+\graphicspath{{../images/}}
+
+\begin{document}
+\footer{}{Page \thepage\ of \numpages}{}
+
+\begin{center}
+\includegraphics[width=10cm]{../images/logo.png}
+\end{center}
+
+\begin{center}
+\noindent{\LARGE Conceptual Physics \\ Homework Packet 1 \\ Solutions \\}
+\end{center}
+
+\clearpage
+
+\begin{flushright}
+Score: \hspace{0.2in} / \numpoints ~ points
+\end{flushright}
+
+\begin{questions}
+\question[5]
+Acupuncture is a traditional medical technique of Asian origin in which small needles are inserted in the patient’s body to relieve pain. Many doctors trained in the west consider acupuncture unworthy of experimental study because if it had therapeutic effects, such effects could not be explained by their theories of the nervous system. Who is being more scientific, the western or eastern practitioners?
+
+From: \textit{Light and Matter}, Ch.0, Discussion Question A.
+\begin{TheSolution}
+The scientific method relies on the interplay between experiment and theory; If an experiment or observation is made which cannot be explained by existing theories, then the theories need to be changed. The reluctance of western practitioners to examine a phenomenon on the basis that it cannot be explained by their theories is unscientific, especially since it is possible to experimentally verify these claims. The eastern practitioners, having noticed that inserting small needles relieves pain, continue to examine and develop the technique; This is more scientific.
+\end{TheSolution}
+
+\question[5]
+A child asks why things fall down, and an adult answers ``because of gravity." The ancient Greek philosopher Aristotle explained that rocks fell because it was their nature to seek out their natural place, in contact with the earth. Are these explanations scientific? 
+
+From: \textit{Light and Matter}, Ch.0, Discussion Question C.
+\begin{TheSolution}
+Neither of these statements are scientific.
+
+Even if an answer is drawn from a scientific theory (e.g. gravity), if it lacks any sort of predictive or explanatory power then it is unscientific; The adult saying ``things fall because of gravity" is equivalent to saying ``things fall because of unicorns" if they do not explain what gravity is. Aristotle's statement boils down to ``because that's the way it is", and so is also not scientific.
+\end{TheSolution}
+
+\question[4]
+Compute the following things. If they don't make sense because of units, say so.
+
+From: \textit{Light and Matter}, Ch.0, Q. 2.
+\begin{parts}
+ \part 3 cm + 5 cm
+	\begin{TheSolution}
+		As these two numbers are in identical units, we can just add them:
+		
+		3 cm +  5 cm = 8 cm
+	\end{TheSolution}
+ \part 1.1 m + 22 cm
+ 	\begin{TheSolution}
+ 		Both meters (m) and centimeters (cm) measure distance, however we need to convert from one to the other. We can either report the answer in meters (m) or centimeters (cm):
+ 		
+ 		\begin{eqnarray}
+ 		\left(1.1 m \times \frac{100~cm}{1~m} \right)+ 22 cm = 110 cm + 22 cm = 132 cm\nonumber\\
+ 		1.1 m + \left(22 cm \times \frac{0.01~m}{1~cm}\right) = 1.1 m + 0.22 m = 1.32 m\nonumber
+ 		\end{eqnarray}
+ 	\end{TheSolution}
+ \part 120 miles + 2.0 hours
+ 	\begin{TheSolution}
+ 		Miles is a measure of distance, and hours is a measure of time. It is therefore not possible to add these two quantities, as they have incompatible units.
+ 	\end{TheSolution}
+ \part 120 miles / 2.0 hours
+	\begin{TheSolution}
+		Miles is a measure of distance, and hours of time. A distance over time yields a speed;
+		\begin{eqnarray}
+			\frac{120~\text{miles}}{20~\text{hours}} = 60~\text{miles/hour}\nonumber
+		\end{eqnarray}
+	\end{TheSolution}
+\end{parts}
+
+\question[2]
+Convert 134 mg to units of kg, writing your answer in scientific notation.
+
+From: \textit{Light and Matter}, Ch.0, Q. 6
+	\begin{TheSolution}
+		\begin{eqnarray}
+		134~mg \times \frac{1 kg}{1000 m} \times \frac{1 m}{1000 mg} = 0.000134 kg\nonumber = 1.34\times 10^{-4} kg
+		\end{eqnarray}
+	\end{TheSolution}
+
+\question[5]
+Express each of the following quantities in micrograms:
+
+From: \textit{Light and Matter}, Ch.0, Q. 5:
+\begin{parts}
+ \part 10 mg
+	\begin{TheSolution}
+	\begin{eqnarray}
+		10 mg \times \frac{1 g}{1000 mg} \times \frac{10^{6} \mu g}{1 g} = \nonumber 10^{4} \mu g
+	\end{eqnarray}
+	\end{TheSolution}
+	
+\clearpage
+ \part $10^4$ g
+	\begin{TheSolution}
+	\begin{eqnarray}
+		10^4 g \times \frac{10^{6} \mu g}{1 g} = 10^{10}\mu g
+	\end{eqnarray}
+	\end{TheSolution}
+ \part 10 kg
+	\begin{TheSolution}
+		\begin{eqnarray}
+			10 kg \times \frac{1000 g}{kg} \times \frac{10^{6} \mu g}{1 g} = 10^{10} \mu g
+		\end{eqnarray}
+		(The previous question asked to convert $10^4$ grams, which is the same as 10 kg, and so the answer is identical.)
+	\end{TheSolution}
+ \part $100\times 10^3$ g
+	\begin{TheSolution}
+	\begin{eqnarray}
+		100\times 10^3 g &=& 10^2 \times 10^ 3 g = 10^5 g = 10^5~g \times \frac{10^6 \mu g}{1 g} = 10^{11}~\mu g \nonumber
+	\end{eqnarray}
+	\end{TheSolution}
+ \part 1000 ng
+	\begin{TheSolution}
+		\begin{eqnarray}
+			1000~ng = 10^3~ng = 10^3~ng\times \frac{1 g}{10^9 ng} \times \frac{10^6 \mu g}{1 g} = 1~\mu g\nonumber
+		\end{eqnarray}
+	\end{TheSolution}
+\end{parts}
+
+\clearpage
+
+\question[3]
+Your backyard has brick walls on both ends. You measure a distance of 23.4 m from the inside of one wall to the inside of the other. Each wall is 29.4 cm thick. How far is it from the outside of one wall to the outside of the other?
+
+From: \textit{Light and Matter}, Ch. 0, Q. 3
+\begin{TheSolution}
+\begin{center}\input{../images/walls.pdf_tex}\end{center}
+
+There are 2 different units being used here, $m$ and $cm$. Since the question does not specify which units to report the answer it, we can use either. If we want to use meters, we get:
+\begin{eqnarray}
+&~& 23.4~m + 29.4~cm + 29.4~cm = 23.4~m + 58.8~cm \times\frac{1 m}{100 cm} \nonumber\\
+&=& 23.4~m + 0.588~m = 23.988~m
+\end{eqnarray}
+
+If we want to use cm, then the procedure is almost the same:
+\begin{eqnarray}
+&~& 23.4~m + 29.4~cm + 29.4~cm = 23.4~m \times\frac{100 cm}{m} + 58.8~cm \nonumber\\
+&=& 2340~cm + 58.8~cm = 2398.8~cm
+\end{eqnarray}
+\end{TheSolution}
+
+
+
+\end{questions}
+
+
+
+\end{document}
